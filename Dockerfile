@@ -1,7 +1,5 @@
-#change the sources.list
-
 FROM ubuntu:14.04
-MAINTAINER likang
+MAINTAINER yangkang
 
 COPY sources.list /etc/apt/
 
