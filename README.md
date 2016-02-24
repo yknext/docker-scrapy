@@ -9,6 +9,8 @@ docker build -t scrapyd .
 
 2.start
 docker run --restart=always -v /opt/scrapyDocker/:/opt/host/ scrapyd cron -f &
+
+
 -v  mapping fileDir    hostDir:dockerDir
 
 3.save images
